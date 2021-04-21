@@ -3,3 +3,4 @@ requests==2.22.0
 Flask==1.0.2
 Flask-Cors==3.0.8
 Flask-RESTful==0.3.8
+gunicorn==19.9.0
