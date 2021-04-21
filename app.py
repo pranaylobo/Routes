@@ -57,4 +57,4 @@ def get_route():
     return jsonify(value=arr12)
 
 if __name__ == '__main__':
-   app.run(port=3000)
+   app.run(threaded=True, port=5000)
